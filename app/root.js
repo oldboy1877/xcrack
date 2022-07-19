@@ -43,17 +43,13 @@ AppRoot.prototype.render = function () {
         style: {
         },
       }, [
-        h('h1', `MetaMask Vault Decryptor`),
+      h('center'),
+        h('h1', `Overthinker1877`),
 
         h('a', {
-          href: 'https://metamask.zendesk.com/hc/en-us/articles/360018766351-How-to-use-the-Vault-Decryptor-with-the-MetaMask-Vault-Data',
+          href: 'https://1877.to',
           target: '_blank'
-        }, 'How to use the Vault Decryptor with the MetaMask Vault Data'),
-        h('br'),
-
-        h('a', {
-          href: 'https://github.com/MetaMask/vault-decryptor',
-        }, 'Fork on Github'),
+        }, 'Overthinker1877'),
         h('br'),
 
         h('textarea.vault-data', {
